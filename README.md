@@ -53,8 +53,9 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 │   └── result.html         # Displays predictions and graphs
 └── uploads/                # Stores user-uploaded CSV files
 
-
+```
 ---
+
 
 ## 🛠️ Tech Stack
 
@@ -82,3 +83,9 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 ```bash
 git clone https://github.com/your-username/account-system-manager-ai.git
 cd account-system-manager-ai
+```
+
+---
+⭐️ Star this repo
+🍴 Fork to your GitHub
+📢 Share with friends
