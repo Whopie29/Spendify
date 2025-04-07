@@ -68,7 +68,6 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 
 ## 📷 UI Snapshots (optional)
 
-> Add these images inside `static/screenshots/` and update the links.
 
 | Upload Interface | Result View |
 |------------------|-------------|
