@@ -66,7 +66,7 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 
 ---
 
-## 📷 UI Snapshots (optional)
+## 📷 UI Snapshots 
 
 
 | Upload Interface | Result View |
