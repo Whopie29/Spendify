@@ -79,7 +79,7 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 
 | Upload Interface | Result View |
 |------------------|-------------|
-| ![](static/upload.png) | ![](static/result.png) |
+| ![](static/upload_stream.png) | ![](static/res_stream.png) |
 
 ---
 
