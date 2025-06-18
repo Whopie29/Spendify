@@ -82,7 +82,7 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 | ![](static/upload_stream.png) | ![](static/res_stream.png) |
 
 ---
-<small>[Visit the Project](http://192.168.1.3:8501/))</small>
+<small>[Visit the Project]([https://github.com/username/repo](http://192.168.1.3:8501/))</small>
 ---
 
 ## ⚙️ Installation Guide
