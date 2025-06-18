@@ -1,4 +1,5 @@
-<h1 align="center">🤖 AI Account System Manager</h1>
+<h1 align="center">Spendify</h1>
+<h4 align="center">🤖 AI Account System Manager</h4>
 
 <p align="center">
   An intelligent account data processing and visualization tool built with <b>Flask</b>, <b>Python</b>, and <b>Machine Learning</b>.
