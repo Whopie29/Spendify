@@ -62,8 +62,8 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 
 - **Backend**: Flask, Python, Streamlit
 - **ML & Data**: pandas, numpy, scikit-learn
-- **Frontend**: HTML5, Jinja2 Templates, Bootstrap
-- **Visualization**: matplotlib
+- **Frontend**: HTML5, CSS, Flask
+- **Visualization**: matplotlib, Statsmodels
 
 ---
 
