@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPENDIFY - Upload PDF</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap" rel="stylesheet">
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      overflow: hidden;
+    }
+
+    /* Background image */
+    body::before {
+      content: "";
+      background-image: linear-gradient(to bottom, #3e5eb5, #0086d7, #00abe2, #00cdd9, #12ebc3);
+      
+      background-size: cover;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      filter: blur(4px) brightness(70%);
+      z-index: -2;
+    }
+
+    body::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background: rgba(0, 0, 0, 0.3);
+      z-index: -1;
+    }
+
+    /* Title section */
+    .title-section {
+      padding: 30px 20px;
+      text-align: center;
+    }
+
+    .main-title {
+        font-family: "Abril Fatface", serif;
+        font-weight: 400;
+        font-size: 75px;
+        font-style: normal;
+        color: #ffffff;
+        letter-spacing: 1.2px;
+        margin-bottom: -5px;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    .second-title {
+        font-family: "Zain", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        text-align: center;
+        color: #ffffff;
+        letter-spacing: 1.2px;
+        margin-top: -20px;
+        text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    }
+
+    /* Form container */
+    .upload-container {
+      background-color: rgba(255, 255, 255, .15);
+      backdrop-filter: blur(10px);
+      border-radius: 16px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+      padding: 40px 30px;
+      max-width: 500px;
+      margin: 40px auto;
+      position: relative;
+      z-index: 1;
+    }
+
+    .upload-container h2 {
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 40px;
+      margin-top: 10px;
+      color: #ffffff;
+    }
+
+    .form-control {
+      border-radius: 8px;
+      box-shadow: none;
+      transition: all 0.3s ease-in-out;
+    }
+
+    .form-control:focus {
+      border-color: #007bff;
+      box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+    }
+
+    .btn-primary {
+      border-radius: 8px;
+      padding: 10px 20px;
+      font-size: 16px;
+      font-weight: 500;
+      background: linear-gradient(45deg, #007bff, #0056b3);
+      border: none;
+      transition: background 0.3s ease-in-out;
+    }
+
+    .btn-primary:hover {
+      background: linear-gradient(45deg, #0056b3, #003974);
+    }
+  </style>
+</head>
+<body>
+
+  
+  <div class="title-section">
+    <h1 class="main-title">SPENDIFY</h1>
+  </div>
+  <div class="sub-section">
+    <h2 class="second-title">Your Spendings Analyzer</h2>
+  </div>
+
+ 
+  <div class="upload-container text-center">
+    <h2>Upload Your Bank Statement</h2>
+    <form action="/upload" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".pdf" class="form-control mb-3" required>
+      <input type="password" name="password" placeholder="Enter PDF Password (if any)" class="form-control mb-3">
+      <button type="submit" class="btn btn-primary">Upload & Analyze</button>
+    </form>
+  </div>
+
+</body>
+</html>
