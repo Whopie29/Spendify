@@ -72,7 +72,7 @@ This project is a smart **Account System Manager AI** that allows users to uploa
 
 | Upload Interface | Result View |
 |------------------|-------------|
-| ![](static/upload.png) | ![](static/result.png) |
+| ![](static/login.png) | ![](static/main.png) |
 
 ---
 ## UI snaps from Streamlit
